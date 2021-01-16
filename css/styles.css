@@ -86,10 +86,9 @@ p {
 /* Title Image */
 
 .title-image {
-  width: 60%;
-  transform: rotate(25deg);
+  width: 100%;
   position: absolute;
-  right: 30%;
+  right: 0%;
 }
 
 /* Features Section */
@@ -178,4 +177,13 @@ p {
     position: static;
     transform: rotate(0);
   }
+}
+
+.btn-xlarge {
+    padding: 30px 45px;
+    font-size: 22px; //change this to your desired size
+    line-height: normal;
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
 }
